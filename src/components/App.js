@@ -14,7 +14,7 @@ const PersonalizedGreeting = () => {
         onChange={(e) => setName(e.target.value)}
         
       />
-      {name && <h2 >Hello, {name}!</h2>}
+      {name && <h2 >Hello {name}!</h2>}
     </div>
   );
 };
